@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+input#content{
+    font: normal 20pt Times;
+    background-color: blueviolet;
+    padding-top: 1%;
+    padding-right: 0.5%;
+    border-style: double;
+    margin-left: 45%;
+    
+}
+
+h1{
+    margin-left: 45.5%;
+}
+

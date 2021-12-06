@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Medidas </h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Distância : <input type="number" name="metro" id="metro" placeholder="Em metros">
+            </p>
+            <p> Para:
+                <input type="radio" name="radmed" id="Km" checked>
+                <label for="Km">Quilômetros</label>
+                <input type="radio" name="radmed" id="Hm">
+                <label for="Hm">Hectômetros</label>
+                <input type="radio" name="radmed" id="Dam">
+                <label for="Dam">Decâmetros</label>
+                <input type="radio" name="radmed" id="Dm">
+                <label for="Dm">Decímetros</label>
+                <input type="radio" name="radmed" id="Cm">
+                <label for="Cm">Centímetros</label>
+                <input type="radio" name="radmed" id="Mm">
+                <label for="Mm">Milimetros</label>
+            </p>
+            <p>
+                <input type="button" value="Converter" onclick="converter()">
+            </p>
+        </div>
+        <div id="res">
+           <p>
+               Preparando para contagem...
+           </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

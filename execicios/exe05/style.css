@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to left , rgb(92, 92, 240) , rgb(84, 84, 216));
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.474);
+
+}
+
+select#listaNum{
+    width: 150px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

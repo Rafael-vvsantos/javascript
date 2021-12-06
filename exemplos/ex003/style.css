@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1 {
+    color: rgb(188, 24, 209); /* Comentário em CSS*/
+    font-size: 40px;
+}
+
+body {
+    color: blueviolet;
+    background-color: brown;
+}
+
+p {
+    font: normal 20pt arial;
+}
+
